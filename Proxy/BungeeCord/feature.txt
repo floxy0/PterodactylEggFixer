@@ -1,0 +1,10 @@
+What does egg do?
+
+On Start:
+
+spigot.yml -> bungeecord: true
+server config ->
+
+motd empty
+enforce-secure-profile false
+online-mode false
