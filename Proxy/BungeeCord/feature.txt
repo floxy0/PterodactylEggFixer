@@ -8,3 +8,8 @@ server config ->
 motd empty
 enforce-secure-profile false
 online-mode false
+
+What you need to do?
+Go to start.sh and change this:
+
+java -Xms128M -Xmx{YOURMEMORYHERE}M -Dterminal.jline=false -Dterminal.ansi=true -jar {your jar}.jar
